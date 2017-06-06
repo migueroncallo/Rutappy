@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A70C7751C7FB3B16EC37E23 /* Pods_Rutappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3277705A1BF16928D068EBD /* Pods_Rutappy.framework */; };
+		DD02FA941EE63EA6007464DC /* Drawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD02FA931EE63EA6007464DC /* Drawer.swift */; };
+		DD02FA961EE6437D007464DC /* Ruta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD02FA951EE6437D007464DC /* Ruta.swift */; };
+		DD02FA981EE64C56007464DC /* ConductorUbicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD02FA971EE64C56007464DC /* ConductorUbicacion.swift */; };
 		DD16DD721E942772002B3610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD16DD711E942772002B3610 /* AppDelegate.swift */; };
 		DD16DD741E942772002B3610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD16DD731E942772002B3610 /* ViewController.swift */; };
 		DD16DD771E942772002B3610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD16DD751E942772002B3610 /* Main.storyboard */; };
 		DD16DD791E942772002B3610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD16DD781E942772002B3610 /* Assets.xcassets */; };
 		DD16DD7C1E942772002B3610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD16DD7A1E942772002B3610 /* LaunchScreen.storyboard */; };
+		DD8446121E9C34E700B26501 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8446111E9C34E700B26501 /* MapController.swift */; };
+		DDC9716A1E9D31B4006DEEDD /* MQTTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC971691E9D31B4006DEEDD /* MQTTService.swift */; };
+		DDC9716C1E9D3BFA006DEEDD /* LeftMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9716B1E9D3BFA006DEEDD /* LeftMenuController.swift */; };
+		DDC9716F1E9D3FF4006DEEDD /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9716E1E9D3FF4006DEEDD /* MenuCell.swift */; };
+		DDC971711E9D409E006DEEDD /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC971701E9D409E006DEEDD /* ProfileController.swift */; };
+		DDCA3F291E942CF0006B8E50 /* Dataservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA3F281E942CF0006B8E50 /* Dataservice.swift */; };
+		DDCA3F2C1E942D5E006B8E50 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA3F2B1E942D5E006B8E50 /* User.swift */; };
+		DDCA3F2E1E9440BE006B8E50 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA3F2D1E9440BE006B8E50 /* RegisterController.swift */; };
+		DDFE45181E9C263F00C1BC32 /* LoadDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE45171E9C263F00C1BC32 /* LoadDataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19E08961B5DB4A1FDB6C8FD6 /* Pods-Rutappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rutappy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rutappy/Pods-Rutappy.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA91A04CCC0EC91708CB12E /* Pods-Rutappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rutappy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rutappy/Pods-Rutappy.release.xcconfig"; sourceTree = "<group>"; };
+		C3277705A1BF16928D068EBD /* Pods_Rutappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rutappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD02FA931EE63EA6007464DC /* Drawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawer.swift; sourceTree = "<group>"; };
+		DD02FA951EE6437D007464DC /* Ruta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ruta.swift; sourceTree = "<group>"; };
+		DD02FA971EE64C56007464DC /* ConductorUbicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConductorUbicacion.swift; sourceTree = "<group>"; };
 		DD16DD6E1E942772002B3610 /* Rutappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rutappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD16DD711E942772002B3610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD16DD731E942772002B3610 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,15 @@
 		DD16DD781E942772002B3610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD16DD7B1E942772002B3610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD16DD7D1E942772002B3610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8446111E9C34E700B26501 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		DDC971691E9D31B4006DEEDD /* MQTTService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQTTService.swift; sourceTree = "<group>"; };
+		DDC9716B1E9D3BFA006DEEDD /* LeftMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuController.swift; sourceTree = "<group>"; };
+		DDC9716E1E9D3FF4006DEEDD /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		DDC971701E9D409E006DEEDD /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		DDCA3F281E942CF0006B8E50 /* Dataservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dataservice.swift; sourceTree = "<group>"; };
+		DDCA3F2B1E942D5E006B8E50 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DDCA3F2D1E9440BE006B8E50 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		DDFE45171E9C263F00C1BC32 /* LoadDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A70C7751C7FB3B16EC37E23 /* Pods_Rutappy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39B8C4EE8F79FBB5D4ED7956 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3277705A1BF16928D068EBD /* Pods_Rutappy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6F1392E3B64169F568FE87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19E08961B5DB4A1FDB6C8FD6 /* Pods-Rutappy.debug.xcconfig */,
+				4EA91A04CCC0EC91708CB12E /* Pods-Rutappy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD02FA921EE63E9A007464DC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DD02FA931EE63EA6007464DC /* Drawer.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		DD16DD651E942772002B3610 = {
 			isa = PBXGroup;
 			children = (
 				DD16DD701E942772002B3610 /* Rutappy */,
 				DD16DD6F1E942772002B3610 /* Products */,
+				CB6F1392E3B64169F568FE87 /* Pods */,
+				39B8C4EE8F79FBB5D4ED7956 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +111,65 @@
 			isa = PBXGroup;
 			children = (
 				DD16DD711E942772002B3610 /* AppDelegate.swift */,
-				DD16DD731E942772002B3610 /* ViewController.swift */,
-				DD16DD751E942772002B3610 /* Main.storyboard */,
-				DD16DD781E942772002B3610 /* Assets.xcassets */,
-				DD16DD7A1E942772002B3610 /* LaunchScreen.storyboard */,
-				DD16DD7D1E942772002B3610 /* Info.plist */,
+				DD16DD831E9427A6002B3610 /* Controllers */,
+				DDC9716D1E9D3FDD006DEEDD /* Components */,
+				DDCA3F2A1E942D4C006B8E50 /* Models */,
+				DD16DD841E9427B0002B3610 /* Resources */,
+				DDCA3F271E942CCC006B8E50 /* Services */,
+				DD02FA921EE63E9A007464DC /* Helper */,
 			);
 			path = Rutappy;
+			sourceTree = "<group>";
+		};
+		DD16DD831E9427A6002B3610 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9716B1E9D3BFA006DEEDD /* LeftMenuController.swift */,
+				DDFE45171E9C263F00C1BC32 /* LoadDataController.swift */,
+				DD8446111E9C34E700B26501 /* MapController.swift */,
+				DDC971701E9D409E006DEEDD /* ProfileController.swift */,
+				DDCA3F2D1E9440BE006B8E50 /* RegisterController.swift */,
+				DD16DD731E942772002B3610 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DD16DD841E9427B0002B3610 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD16DD781E942772002B3610 /* Assets.xcassets */,
+				DD16DD7D1E942772002B3610 /* Info.plist */,
+				DD16DD7A1E942772002B3610 /* LaunchScreen.storyboard */,
+				DD16DD751E942772002B3610 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DDC9716D1E9D3FDD006DEEDD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9716E1E9D3FF4006DEEDD /* MenuCell.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		DDCA3F271E942CCC006B8E50 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA3F281E942CF0006B8E50 /* Dataservice.swift */,
+				DDC971691E9D31B4006DEEDD /* MQTTService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		DDCA3F2A1E942D4C006B8E50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA3F2B1E942D5E006B8E50 /* User.swift */,
+				DD02FA951EE6437D007464DC /* Ruta.swift */,
+				DD02FA971EE64C56007464DC /* ConductorUbicacion.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD16DD801E942772002B3610 /* Build configuration list for PBXNativeTarget "Rutappy" */;
 			buildPhases = (
+				DD85BC009956EFF24633DDAF /* [CP] Check Pods Manifest.lock */,
 				DD16DD6A1E942772002B3610 /* Sources */,
 				DD16DD6B1E942772002B3610 /* Frameworks */,
 				DD16DD6C1E942772002B3610 /* Resources */,
+				75E13AE5C797FF121E0D26C1 /* [CP] Embed Pods Frameworks */,
+				5A0C2D05AFAAAC64032C7DF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +243,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A0C2D05AFAAAC64032C7DF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rutappy/Pods-Rutappy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E13AE5C797FF121E0D26C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rutappy/Pods-Rutappy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD85BC009956EFF24633DDAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD16DD6A1E942772002B3610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDCA3F2E1E9440BE006B8E50 /* RegisterController.swift in Sources */,
+				DD8446121E9C34E700B26501 /* MapController.swift in Sources */,
+				DDCA3F2C1E942D5E006B8E50 /* User.swift in Sources */,
+				DDC9716A1E9D31B4006DEEDD /* MQTTService.swift in Sources */,
+				DD02FA941EE63EA6007464DC /* Drawer.swift in Sources */,
 				DD16DD741E942772002B3610 /* ViewController.swift in Sources */,
+				DDFE45181E9C263F00C1BC32 /* LoadDataController.swift in Sources */,
+				DD02FA981EE64C56007464DC /* ConductorUbicacion.swift in Sources */,
+				DDC9716F1E9D3FF4006DEEDD /* MenuCell.swift in Sources */,
+				DDC971711E9D409E006DEEDD /* ProfileController.swift in Sources */,
 				DD16DD721E942772002B3610 /* AppDelegate.swift in Sources */,
+				DDCA3F291E942CF0006B8E50 /* Dataservice.swift in Sources */,
+				DDC9716C1E9D3BFA006DEEDD /* LeftMenuController.swift in Sources */,
+				DD02FA961EE6437D007464DC /* Ruta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -259,6 +430,7 @@
 		};
 		DD16DD811E942772002B3610 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E08961B5DB4A1FDB6C8FD6 /* Pods-Rutappy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D7N8YFLZUT;
@@ -272,6 +444,7 @@
 		};
 		DD16DD821E942772002B3610 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA91A04CCC0EC91708CB12E /* Pods-Rutappy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D7N8YFLZUT;
@@ -302,6 +475,7 @@
 				DD16DD821E942772002B3610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_Rutappy {
+  umbrella header "Pods-Rutappy-umbrella.h"
+
+  export *
+  module * { export * }
+}

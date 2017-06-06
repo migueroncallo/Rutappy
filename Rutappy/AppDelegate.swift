@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
+import GoogleMaps
+import SwiftMQTT
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        IQKeyboardManager.sharedManager().enable = true
+        IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true
+        MQTTService.sharedInstance.mqttSession.connect { (connect, error) in
+            if connect{
+                print("Connected to server")
+            }
+            
+        }
+
+        GMSServices.provideAPIKey("AIzaSyAiMoaPJKfFkcVofsVDgQhiogNSg_npEw0")
+        
         return true
     }
 
@@ -41,6 +56,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    class func getDelegate() -> AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
 }
 
